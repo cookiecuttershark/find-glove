@@ -8,7 +8,7 @@ const UploadGlove = () => {
         <div class="medium-6 cell">
           <label>
             Title
-            <input type="text" placeholder=".medium-6.cell" />
+            <input type="text" placeholder="title" />
           </label>
         </div>
         <div class="medium-6 cell">
@@ -28,7 +28,7 @@ const UploadGlove = () => {
         </div>
         <label>
           Description
-          <textarea placeholder="None"></textarea>
+          <textarea placeholder="description"></textarea>
         </label>
         <label for="exampleFileUpload" class="button">
           Upload Image
