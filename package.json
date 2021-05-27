@@ -25,12 +25,13 @@
     "jquery": "^3.5.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "webpack-dev-server": "^3.11.0",
     "what-input": "^5.2.10"
   },
   "scripts": {
     "dev": "webpack-dev-server --mode development --content-base ./src --module-bind js=babel-loader",
     "build": "webpack --mode production --module-bind js=babel-loader",
-    "format": "yarn prettier --write /src"
+    "format": "yarn prettier --write src"
   }
 }
