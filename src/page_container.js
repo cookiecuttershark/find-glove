@@ -9,17 +9,13 @@ const PageContainer = () => {
   return (
     <>
       <h1>Find Glove</h1>
-      <Menu />
       <BrowserRouter>
-        <Route path="/">
-          <Home />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
+        <Menu />
+        <Route exact path="/" component={
+          Home
+        }/>
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
       </BrowserRouter>
     </>
   );

@@ -1,16 +1,17 @@
 import React from "react";
+import {NavLink} from 'react-router-dom'
 
 const Menu = () => {
   return (
     <ul class="menu">
       <li>
-        <a href="#">Home</a>
+        <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <a href="#">About</a>
+        <NavLink to="/about">About</NavLink>
       </li>
       <li>
-        <a href="#">Contact</a>
+        <NavLink to="/contact">Contact</NavLink>
       </li>
     </ul>
   );
